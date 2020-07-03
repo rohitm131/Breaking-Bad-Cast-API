@@ -30,6 +30,7 @@ const App = () => {
       <Header />
       <Search getQuery={(q) => setQuery(q)} />
       <CharacterGrid isLoading={isLoading} items={items} />
+      <h1> Made by Rohit Mittal </h1>
     </div>
   )
 }
